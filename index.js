@@ -15,9 +15,9 @@ function greet(time) {
   let timeStr = time.split(':');
   let hrInt = parseInt(timeStr[0]);
 
-  if (hrInt > 17) {
+  if (hrInt > 16) {
     return "Good Evening";
-  } else if (hrInt > 12) {
+  } else if (hrInt > 11) {
     return "Good Afternoon";
   } else {
     return "Good Morning";
